@@ -39,6 +39,25 @@ loopup部分的信息是不一样的啊
 ### loopup参数要加
 
 
+然后calendar里要支持where 参数
+
+arrange过程的loopup几个字段信息是怎么处理的？？
+
+---
+### 用kuboard和loki看日志
+
+要么就是进容器看日志文件
+
+在收权限
+
+
+
+must_not {
+	nested {
+			apple
+	}
+}
+
 
 
 

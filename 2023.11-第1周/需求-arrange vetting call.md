@@ -97,3 +97,33 @@ arrange vetting call api (投资银行客户+investor call类型的项目)
 放arrangement确实不太好？？ 所以放task_investor_call ??
 这个信息包括： 状态信息， 会议安排的信息， 那还是 都放吧！都兼容， 
 状态放在investor call, 会议信息放在arrangement . 
+
+---
+
+#refactor
+
+邮件渲染时 光basemodel是不够的，比如loopup信息或一些在页面预览还没进数据库的参数， 那就需要放到context_params,
+这个 应该搞成强类型的！
+
+
+---
+
+calendar怎么发
+现在的calendar竟然和schedule是强关联的？？
+
+这个vetting call我打算不进 schedule表和task.start time,end time
+那么portal的twilio拨入页面也要适配， 因为这不是consultation拨入， 而是vetting call的拨入
+
+先把calendar发出去，无非是构造一个calendar对象，(时间+location而已)
+
+
+twilio的会议 的portal显示要调整
+
+（one-click-dial-in其实用不着 存表里）--- loopup才有这个
+guest code,
+room url
+area acess phone number - 都可以直接取到
+
+---
+
+
