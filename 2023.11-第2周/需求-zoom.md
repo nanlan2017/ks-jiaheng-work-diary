@@ -85,18 +85,27 @@ twilio有个报 外呼打不出去
 ---
 ## 不对啊， scheduled tab必须显示 一个instance里的
 
+Sir/Madam的问题 -- 即使我有app,用的是免登记的， 进会后竟然还是就是 指定的username - 卧槽，这不好吧
+
+
 slack 消息提醒 / consent
 
 外呼电话参会？？？
 
+更新会议：开启录音
 
-Caused by: org.flywaydb.core.api.FlywayException: Validate failed: 
-Migration checksum mismatch for migration version 1.4.65
--> Applied to database : 968359082
--> Resolved locally    : -616019185
+---
+测一下， 网易邮箱 没受邀，
+但他拿到了别的受邀人的 个人链接， 
+加入会怎么样？ 直接加入显示？？
+
+
 
 ---
 
 <span style="background:#d3f8b6">税怎么算， 减免退税怎么回事--很简单</span>
 <span style="background:#d3f8b6">退税免除额</span>
 
+
+做一个 发验证码的服务
+以及 验证验证码的服务 
