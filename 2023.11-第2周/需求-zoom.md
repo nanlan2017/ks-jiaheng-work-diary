@@ -109,3 +109,71 @@ slack 消息提醒 / consent
 
 做一个 发验证码的服务
 以及 验证验证码的服务 
+
+---
+
+###  ⛳️会控
+目前有的会控是什么？ ： 
+
+
+⛳️ <span style="background:#fff88f">所有问题都能在 zoom的developer forum中和大家讨论 ！！ </span>
+🎽 这个问题很蛋疼：
+authencation_exception 中的hi, 这里的昵称怎么定？ 
+- 这个邮件可不可以不发？
+<span style="background:#fff88f">逻辑推理：</span>
+为了participant_tracking, 因为进了会议后就无法 知道咋进来的，毫无依据
+<font color="#ff0000">所以必须 把 participant在zoom会议 侧的部分信息 能和db里对应起来</font>
+- email 邮箱？ 无法自动对应
+- 给一个portal中转 - 且只能是登记zoom账号？把db的信息企图塞到zoom里不行
+		因此只能 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
