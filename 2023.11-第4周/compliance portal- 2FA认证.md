@@ -18,7 +18,43 @@
 	（不要用cookie中的其他值，防止手动修改）
 	  （你有谁的token ,就给你谁的信息）
 	如果无效，则进入2FA验证页面 需要登录，同时看勾不勾选 remeber 30天， 输入账户和密码后
-	如果pass了，则进入下一页面/ 或者根据上一步使用的是phone/email来决定是发验证到哪里。 前端则让输PIN码，如果verify ok则后端直接返回 approved + 对应有效期的jwt token. 前端直接拿这个去请求接口 （也就是说 后端的接口除了这几个 其他的都需要校验token ??)
+如果pass了，则进入下一页面/ 或者根据上一步使用的是phone/email来决定是发验证到哪里。 前端则让输PIN码，如果verify ok则后端直接返回 approved + 对应有效期的jwt token. 前端直接拿这个去请求接口 （也就是说 后端的接口除了这几个 其他的都需要校验token ??)
 
 
 这个就解决啦
+
+
+**What was worked on since the last update?**
+	-Meeting information synchronization and participant tracking -100%
+	-Display of scheduled tab -100%
+	-Task arrange email -100%
+	- Transcript - cadence -100%
+	- Meeting charge duration statistics (timer) -100%
+	- Control during the meeting -95%
+	- Screen sharing - 95%
+**What is planned for the next?**
+	- start testing
+**Are there any blockers than need unblocking to make progress?**
+	-None at the moment
+**What % of the project is complete before testing can begin?**
+	Let's first test the overall process ourselves, and then deploy it to the testing environment to start testing on Friday
+
+
+---
+本周进度：
+- 会议信息同步和人员跟踪- 100%
+- scheduled tab的展示- 100%
+- task arrange email - 100%
+- translation转写- cadence - 100%
+- 会议收费时长统计 - 100%
+- 会中控制 - 95%
+- 屏幕共享 - 95%
+
+后续计划：
+- 开始测试
+
+是否遇到问题：
+ - 暂时没有
+
+整体进度：
+  让我们先自行测试一下整体流程，周五再部署到测试环境开始测试
